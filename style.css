@@ -1,0 +1,113 @@
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+td,tr{
+    padding: 10px;
+}
+
+.navbar{
+    background-color: rgb(170, 216, 235) !important;
+}
+
+.nav-link{
+    color: rgb(2, 47, 66) !important;
+}
+
+.dropdown-item{
+    background-color: rgb(170, 216, 235) !important;
+}
+
+.carousel, .carousel-inner {
+    height: 700px;
+}
+.search{
+    width: 800px;
+    height: 45px;
+    margin: 20px auto 20px auto;
+    border: solid 2px rgb(2, 47, 66);
+
+}
+
+.third{
+    background-color: rgb(170, 216, 235);
+    height: 400px;
+    text-align: center;
+}
+
+.thirdf{
+    color: rgb(2, 47, 66);
+    padding-top: 20px;
+}
+
+.fourth{
+    height: fit-content;
+    padding-bottom: 50px;
+    background-color: rgb(170, 216, 235);
+    border-bottom: 2px solid rgb(2, 47, 66);
+    
+
+    
+}
+.fourthtwo, .ssize{
+    display: inline-block;
+    margin: 15px;
+
+  
+}
+
+.card{
+    display: flex;
+    height: auto;
+    background-color:rgb(227, 244, 252) ;
+
+}
+
+img.size{
+    width: 286px;
+    height: 200px;
+}
+
+.card:hover{
+    background-color:rgb(61, 161, 204);
+    color: rgb(2, 47, 66);
+}
+
+.fifth, .sixth{
+    background-color:rgb(170, 216, 235);
+    padding: 20px;
+    
+}
+
+ 
+.ad{
+    margin:0px 0px 20px 20px;
+
+}
+
+.fifth{
+    display: flex;
+}
+
+.fithone, .fifthtwo{
+    text-align: center;
+    width: 50%;
+    color: rgb(2, 47, 66);
+    border-left:2px solid rgb(2, 47, 66);
+}
+
+
+.seventh{
+    background-color: rgb(73, 73, 73);
+    color: rgb(170, 216, 235);
+    padding: 20px;
+    display: flex;
+}
+
+.sevenone{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}

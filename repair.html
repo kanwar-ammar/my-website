@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Repair Shop </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</head>
+<body  style="background-color: rgb(218, 235, 245);">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/smartphone (1).png" alt="">
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="filters.html">Filters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="repair.html">Repair</a>
+              </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Brands
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Apple</a>
+                  <a class="dropdown-item" href="#">Samsung</a>
+                  <a class="dropdown-item" href="#">Huawei</a>
+                </div>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">
+                  <img src="images/shopping-bag.png" alt=""></a>
+              </li>
+            </ul>
+          </span>
+    
+        </div>
+      </nav>
+
+      <center> 
+        <h1 class="text" > <u> REPAIR FORM </u></h1>
+        </center>
+        
+        <form style="color:rgb(2, 47, 66);"  action="">
+            <table>
+                <tr>
+                    <td>
+                        FIRST NAME
+                    </td>
+                    <td>
+                        <input  required type="text" placeholder="Enter first name" name="name" maxlength="30"> (max 30 character a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        LAST NAME
+                    </td>
+                    <td>
+                        <input  required type="text" placeholder="Enter last name" name="lstname" maxlength="30"> (max 30 character a-z and A-Z)
+                    </td>
+                  </tr>
+                <tr>
+                    <td>EMAIL ID</td>
+                    <td> <input  type="text" placeholder="Enter Email address" name="email" maxlength="30" > </td>
+    
+                </tr>
+                <tr>
+                    <td>
+                        MOBILE NUMBER
+                    </td>
+                    <td>
+                        <input  type="text" placeholder="Enter mobile number" name="num" maxlength="10"> (10 digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER
+                    </td>
+                    <td>
+                       male <input type="radio" name="gender" value="male" maxlength="10"> 
+                       female <input type="radio" name="gender" value="female" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ADDRESS
+                    </td>
+                    <td>
+                      <textarea name="address" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                  <td>MOBILE MODEL</td>
+                    <td>
+                      <select name="mobile_m" id="">
+                        <option value="">Iphone 11 Max</option>
+                        <option value="">Samsung S20</option>
+                        <option value="">Huawei Nova 7i</option>
+                        <option value="">Xiomi Redmi Note 9 Pro Max</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                      COMPLAIN
+                  </td>
+                  <td>
+                    <textarea name="address" cols="30" rows="10" placeholder="Write your complain or fault here "></textarea>
+                  </td>
+              </tr>
+                <tr>
+                    <td>
+                        CITY
+                    </td>
+                    <td>
+                        <input   type="text" placeholder="Enter city name" name="cityname" maxlength="30"> (max 30 character a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PINCODE
+                    </td>
+                    <td>
+                        <input  type="text" placeholder="Enter pincode" name="pin" maxlength="6"> (6 digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        STATE
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter state" name="state" maxlength="30"> (max 30 character a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        COUNTRY
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter country" name="country" maxlength="30"> 
+                    </td>
+                </tr>
+            </table>
+            <p style="font-size: 50px;" >
+              <h4>Note:</h4>
+              <b> All your queries and cases will be replied through mail.</b></p>
+            <center>
+                 <button type="submit" style="background-color:  rgb(79, 148, 252); color: white;">Submit</button> 
+                <input type="reset" style="background-color: rgb(79, 148, 252); color: white;" name="reset">
+            </center>
+        </form>
+       
+    
+        
+</body>
+</html>
